@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ventana</class>
+ <widget class="QWidget" name="Ventana">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>684</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Realidad Aumentada</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="10">
+    <widget class="QCheckBox" name="cbContornos">
+     <property name="text">
+      <string>Contornos</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="9">
+    <widget class="QCheckBox" name="cbSegmentarRostro">
+     <property name="text">
+      <string>Segmentar rostro</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="10">
+    <widget class="QCheckBox" name="cbRecortarBoca">
+     <property name="text">
+      <string>Recortar boca</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="8">
+    <widget class="QPushButton" name="pbCambiarCamara">
+     <property name="text">
+      <string>Cambiar cámara</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="8">
+    <widget class="QPushButton" name="pbProyector">
+     <property name="text">
+      <string>Llevar a proyector</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="9">
+    <widget class="QCheckBox" name="cbSeguirRostro">
+     <property name="text">
+      <string>Seguir rostro</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="4" colspan="11">
+    <layout class="QGridLayout" name="layoutEscena"/>
+   </item>
+   <item row="4" column="5" colspan="3">
+    <widget class="QPushButton" name="pbVisitarDomicilio">
+     <property name="text">
+      <string>Visitar domicilio</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="5">
+    <widget class="QLineEdit" name="leVisitarDomicilio">
+     <property name="text">
+      <string>Universidad Blas Pascal</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLineEdit" name="leRotacion">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="4">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="1" colspan="3">
+    <widget class="QLabel" name="lRotacion">
+     <property name="text">
+      <string>Rotación</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
